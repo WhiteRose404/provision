@@ -105,7 +105,7 @@ data "aws_ec2_instance_type_offerings" "availability_zones_gpu" {
 # EKS Blueprints
 #---------------------------------------------------------------
 module "eks_blueprints" {
-  source = "github.com/aws-ia/terraform-aws-eks-blueprints?ref=v4.31.0"
+  source = "github.com/aws-ia/terraform-aws-eks-blueprints?ref=v4.30.0"
 
   cluster_name    = local.cluster_name
   cluster_version = local.eks_version
