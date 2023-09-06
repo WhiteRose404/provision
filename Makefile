@@ -58,7 +58,7 @@ install-python:
 	# python3.8 -m pip install --upgrade pip
 
 install-python-packages:
-	python3.8 -m pip install -r tests/e2e/requirements.txt
+	# python3.8 -m pip install -r tests/e2e/requirements.txt
 
 install-tools: install-awscli install-eksctl install-kubectl install-kustomize install-yq install-jq install-terraform install-helm install-python install-python-packages
 
